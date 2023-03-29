@@ -9,5 +9,8 @@ public class Homework3 {
 
         // Convert to binary and display
         System.out.println("Your number in binary: " + Integer.toBinaryString(number));
+
+        // Close Scanner
+        sc.close();
     }
 }
